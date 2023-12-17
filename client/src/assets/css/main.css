@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-bottom: 40px;
+}
+
+:root {
+  --violet: rgb(49, 3, 213);
+  --pink: rgb(209, 44, 174);
+  --green: rgb(11, 208, 142);
+  --green-light: rgb(127, 188, 23);
+}
+
+form {
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+label.title {
+  display: block;
+  color: #484848;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 20px 0 10px 0;
+}
+.custom-input {
+  padding: 10px;
+  border: 2px solid #ddd;
+  width: 100%;
+  box-sizing: border-box;
+}
+textarea {
+  padding: 10px;
+  border: 2px solid #ddd;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+form button {
+  display: block;
+  margin: 30px auto 0;
+  background-color: var(--violet);
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
