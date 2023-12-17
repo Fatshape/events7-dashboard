@@ -22,13 +22,13 @@ The app uses:
 Install NestJS packages: `npm install`\
 Install VueJS packages: `cd client` => `npm install`
 
-## Running / developing the application
+## Running the application
 
 NestJS, back-end:\
-`npm run start`  or `npm run start:dev`
+`npm run start` or `npm run start:dev` (to watch for changes in your files)
 
 VueJS, fron-end:\
-`cd client` => `npm run build`  or `npm run serve`
+`cd client` => `npm run build` (go to http://localhost:3000/ - production-ready build)  or `npm run serve` (go to http://localhost:8080/ - dev server)
 
 *That's all!*
 
